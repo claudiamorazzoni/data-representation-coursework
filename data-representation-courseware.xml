@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+    <Books category="Technical">
+        <title>Algorithms for Optimization</title>
+        <author>Mykel J. Kochenderfer</author>
+        <isbn>1234</isbn>
+    </Books>
+     <Books category="Technical">
+        <title>Computer Science: An Overview, Global Edition</title>
+        <author>Glenn Brookshear</author>
+        <isbn>4321</isbn>
+    </Books>
+    <Books category="Technical">
+        <title>Code:The Hidden Language of Computer Hardware and Software</title>
+        <author>Charles Petzold</author>
+        <isbn>3241</isbn>
+    </Books>
+    <Books category="Cookery">
+        <title>Vegan: The Cookbook</title>
+        <author>Jean-Christian Jury</author>
+        <isbn>5678</isbn>
+    </Books>
+    <Books category="Cookery">
+        <title>Everyday Cook</title>
+        <author>Donal Skehan</author>
+        <isbn>8765</isbn>
+    </Books>
+    <Books category="Cookery">
+        <title>Good Enough</title>
+        <author>Jen Petro-Roy </author>
+        <isbn>6758</isbn>
+    </Books>
+</catalogue>

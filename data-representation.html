@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>js01-intro</title>
+        <!-- javascript can go in the head-->
+    </head>
+    <body>
+        <h1> a form</h1>
+        <form action="catalogue.html" method="GET">
+                name <input type="text" value="Joe" name="firstname"></input> <br/>
+                age <input type="number"></input> <br/>
+                county <select name="county">
+                        <option value="G">Technical books</option>
+                        <option value="mo">cookery books</option>
+                        </select>
+            <button>go</button>
+
+        </form>
+        <script>
+            function myFunction(message){
+                document.getElementById('messageOut').innerText = message
+            }
+            
+            
+            var book ={}
+            book.title = "some harry potter stuff"
+            book.author = "JK"
+            book.isbn = "1234"  
+
+            console.log("book is "+ JSON.stringify( book) ) 
+        </script>
+        
+    </body>
+</html>
+
+ 
